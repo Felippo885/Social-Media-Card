@@ -1,0 +1,79 @@
+/* Corpo */ 
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #300030;
+
+    font-family: 'Maven Pro', sans-serif;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Conteudo */
+
+.card {
+    background: #000000;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px #0d0e14;
+}
+
+.img-eu {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.para-name {
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links-elementes > a{
+    color: #fff;
+}
+
+.links-elementes {
+    background: #757575;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.links-elementes:hover {
+    background: #5c595c;
+    transition: 0.5s;
+}
+
+footer {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 11px;
+}
